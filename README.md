@@ -12,6 +12,9 @@ This portfolio website serves as a showcase of my work, projects, and skills in 
 - Projects: Showcase of my projects with descriptions and links to GitHub repositories or live demos.
 - Contact Form: A contact form for reaching out to me for collaboration or inquiries.
 
+![image](https://github.com/eby0303/Portfolio/assets/86768805/4d27bc9a-f280-4107-947b-c6ddc9eff962)
+
+
 ## Technologies Used
 
 - HTML/CSS: Frontend design and structure.
