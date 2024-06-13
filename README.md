@@ -1,10 +1,10 @@
 # My Portfolio
 
-Welcome to my portfolio project, showcasing my skills, projects, and experience in web development and programming.
+Welcome to my portfolio project, showcasing my skills, projects, and experience in data analytics and machine learning.
 
 ## Overview
 
-This portfolio website serves as a showcase of my work, projects, and skills in the field of web development. It includes information about my background, projects I have worked on, and technologies I am proficient in.
+This portfolio website serves as a showcase of my work, projects, and skills in the field of data science and machine learning. It includes information about my background, projects I have worked on, and technologies I am proficient in.
 
 ## Features
 
