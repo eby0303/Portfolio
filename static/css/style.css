@@ -1,16 +1,16 @@
 :root {
     --radius: 7px;
     --skew: 25deg;
-    --main-color: #0D7377; /* Primary Color */
-    --secondary-color: #323232; /* Secondary Color */
-    --contrast-color: #FFD700; /* Contrast Color */
-    --background-color: #212121; /* Background Color */
-    --accent-color: #b5b5b5; /* Accent Color */
+    --main-color: #0D7377; 
+    --secondary-color: #323232; 
+    --contrast-color: #FFD700; 
+    --background-color: #212121; 
+    --accent-color: #b5b5b5; 
 }
 
 body {
     font-family: 'Open Sans', sans-serif;
-    background: var(--background-color); /* Updated background color */
+    background: var(--background-color); 
     padding-top: 50px;
     overflow: auto; 
 }
@@ -20,8 +20,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-    font-size: 20px; /* Set the font size to 18 pixels */
-    line-height: 1.5; /* Set the line height for better readability */
+    font-size: 20px; 
+    line-height: 1.5; 
 }
 
 /* navigation bar */
@@ -46,7 +46,7 @@ p {
     align-items: center;
     padding: 10px 20px;
     border-radius: 10px;
-    background-color: var(--main-color); /* Updated background color */
+    background-color: var(--main-color); 
 }
 
 .nav li {
@@ -67,7 +67,7 @@ p {
 }
 
 .skew-menu ul li {
-    background: var(--accent-color); /* Updated background color */
+    background: var(--accent-color);
     float: left;
     border-right: 1px solid #eee;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
@@ -127,14 +127,14 @@ p {
 }
 
 .img-container {
-    width: 700px; /* Set the width of the image container */
-    height: 400px; /* Set the height of the image container */
-    overflow: hidden; /* Hide any parts of the image that exceed the container */
+    width: 700px; 
+    height: 400px; 
+    overflow: hidden; 
 }
 .img-container img {
-    width: 100%; /* Ensure the image fills the container width */
-    height: 100%; /* Ensure the image fills the container height */
-    object-fit: cover; /* Maintain aspect ratio and cover the container */
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover;
 }
 
 .container_content {
@@ -177,7 +177,7 @@ p {
 
 .btns_more {
     padding: 8px 16px;
-    background-color: var(--main-color); /* Updated button color */
+    background-color: var(--main-color); 
     width: 150px;
     border: none;
     border-radius: 4px;
@@ -194,7 +194,7 @@ p {
 
 
 .btns_more:hover {
-    background-color: var(--contrast-color); /* Updated button hover color */
+    background-color: var(--contrast-color); 
     transform: translateY(-2px);
     color:#ffffff;
 }
@@ -243,10 +243,10 @@ h1 {
 /* Projects section */
 
 #projects > h2 {
-    font-size: 2.5em; /* Matching the size of inner headers */
-    color: var(--contrast-color); /* Using the same color variable */
-    margin-bottom: 20px; /* Consistent spacing */
-    text-align: center; /* Centering the header, if needed */
+    font-size: 2.5em; 
+    color: var(--contrast-color); 
+    margin-bottom: 20px; 
+    text-align: center; 
     width: 100%;
 }
 .project_container {
@@ -276,7 +276,7 @@ h1 {
     width: 50%;
     height: 100%;
     text-decoration: none;
-    background: var(--accent-color); /* Updated background color */
+    background: var(--accent-color);
     border-radius: 8px;
     transform: skewX(15deg);
     transition: 0.5s;
@@ -289,7 +289,7 @@ h1 {
     left: 50;
     width: 50%;
     height: 100%;
-    background: var(--accent-color); /* Updated background color */
+    background: var(--accent-color); 
     border-radius: 8px;
     transform: skewX(15deg);
     transition: 0.5s;
@@ -305,17 +305,17 @@ h1 {
 
 .project_container .box:nth-child(1):before,
 .project_container .box:nth-child(1):after {
-    background: linear-gradient(315deg, var(--contrast-color), var(--main-color)); /* Updated gradient colors */
+    background: linear-gradient(315deg, var(--contrast-color), var(--main-color)); 
 }
 
 .project_container .box:nth-child(2):before,
 .project_container .box:nth-child(2):after {
-    background: linear-gradient(315deg, var(--secondary-color), var(--contrast-color)); /* Updated gradient colors */
+    background: linear-gradient(315deg, var(--secondary-color), var(--contrast-color)); 
 }
 
 .project_container .box:nth-child(3):before,
 .project_container .box:nth-child(3):after {
-    background: linear-gradient(315deg, var(--background-color), var(--main-color)); /* Updated gradient colors */
+    background: linear-gradient(315deg, var(--background-color), var(--main-color)); 
 }
 
 .project_container .box span {
@@ -432,7 +432,7 @@ h1 {
 }
 
 .project_container .box .content a:hover {
-    background: var(--contrast-color); /* Updated background color */
+    background: var(--contrast-color); 
     border: 1px solid rgba(255, 0, 88, 0.4);
     box-shadow: 0 1px 15px rgba(1, 1, 1, 0.2);
 }
@@ -494,7 +494,7 @@ h1 {
     font-weight: bold;
 }
 
-/* Additional styles for list and animation */
+
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 :root {
@@ -508,7 +508,7 @@ section {
 
 .list {
     max-height: var(--container-height);
-    border: 2px solid var(--contrast-color); /* Updated border color */
+    border: 2px solid var(--contrast-color); 
     border-radius: 5px;
     scroll-snap-type: y mandatory;
     overscroll-behavior-y: contain;
@@ -553,7 +553,7 @@ li:first-child {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: var(--contrast-color); /* Updated scrollbar thumb color */
+    background: var(--contrast-color); 
     border-radius: 10px;
 }
 
@@ -609,7 +609,7 @@ li:first-child {
 
 .contact-form-container button {
     padding: 8px 16px;
-    background-color: var(--main-color); /* Updated button color */
+    background-color: var(--main-color); 
     color: white;
     border: none;
     border-radius: 4px;
@@ -618,7 +618,7 @@ li:first-child {
 }
 
 .contact-form-container button:hover {
-    background-color: var(--contrast-color); /* Updated button hover color */
+    background-color: var(--contrast-color);
     transform: translateY(-2px);
 }
 
